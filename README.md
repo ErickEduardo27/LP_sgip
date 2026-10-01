@@ -1,29 +1,27 @@
-# Welcome to your Lovable project
+# SGIP por egora — Landing page
 
-This project was built with [Lovable](https://lovable.dev).
+Sitio estático de la landing de SGIP, el producto de gestión de inventario patrimonial de egora.
 
-## Build with Lovable
+## Desarrollo
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requiere Node.js 20.19 o superior.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
 
-## Built with
+## Build estático
 
-- TanStack Start
+```sh
+npm run build
+```
+
+El sitio completo queda en `dist/client/` (HTML prerenderizado, CSS, JS e imágenes). Sube el contenido de esa carpeta a cualquier hosting estático (Netlify, Vercel, Cloudflare Pages, GitHub Pages, S3, Nginx, etc.).
+
+## Stack
+
+- TanStack Start (prerender)
 - TypeScript
 - React
 - Tailwind CSS

@@ -1,0 +1,6 @@
+- [x] Crear identidad visual y página comercial completa de SGIP.
+- [x] Implementar interacción de navegación, solicitud de contacto, FAQ y demostraciones visuales.
+- [x] Verificar presentación en escritorio y móvil; marcar datos no verificados como ejemplos.
+- [x] Reposicionar egora como marca principal y SGIP como uno de sus productos.
+- [x] Actualizar el mensaje central y aplicar una paleta azul seria y moderna.
+- [x] Verificar la nueva identidad en escritorio y móvil.

@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Header, Hero, ProblemSection, SolutionSection, AISection, ReconciliationSection, Features, DashboardPreview, MobileAppSection, Pricing, Implementation, Industries, Security, Results, Testimonials, FAQ, FinalCTA, Footer, RequestDialog } from "@/components/sgip-sections";
+import { Header, Hero, ProblemSection, SolutionSection, AISection, ReconciliationSection, Features, DashboardPreview, MobileAppSection, Pricing, Implementation, Industries, Security, Results, FAQ, FinalCTA, Footer, RequestDialog } from "@/components/sgip-sections";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -14,5 +14,5 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  return <><Header/><main><Hero/><ProblemSection/><SolutionSection/><AISection/><ReconciliationSection/><Features/><DashboardPreview/><MobileAppSection/><Pricing/><Implementation/><Industries/><Security/><Results/><Testimonials/><FAQ/><FinalCTA/></main><Footer/><RequestDialog/></>;
+  return <><Header/><main><Hero/><ProblemSection/><SolutionSection/><AISection/><ReconciliationSection/><Features/><DashboardPreview/><MobileAppSection/><Pricing/><Implementation/><Industries/><Security/><Results/><FAQ/><FinalCTA/></main><Footer/><RequestDialog/></>;
 }

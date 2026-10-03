@@ -16,6 +16,7 @@ export default defineConfig({
         crawlLinks: true,
         autoSubfolderIndex: true,
       },
+      pages: [{ path: "/privacidad" }],
     }),
     viteReact(),
   ],
